@@ -26,7 +26,7 @@ function App() {
 
 
   return (
-    <div className="app flex items-center justify-center h-screen ">
+    <div className="app flex flex-col items-center justify-center h-screen ">
       <button className=" absolute right-12 top-5 text-[#333333] text-md" onClick={fetchData}>random <RefreshIcon className='h-5 inline-flex' /></button>
       <Routes>
         <Route path='/' element={<Home />} />
