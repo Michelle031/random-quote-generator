@@ -32,7 +32,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/author' element={<Author />} />
       </Routes>
-      <footer className="font-xs px-6"><p>created by <b>Michelle031</b> - devChallenges.io </p></footer>
+      <footer className="font-xs px-6 absolute bottom-0 left-50"><p>created by <b>Michelle031</b> - devChallenges.io </p></footer>
     </div>
   );
 }
