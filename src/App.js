@@ -27,7 +27,7 @@ function App() {
 
   return (
     <div className="app flex flex-col items-center justify-center h-screen ">
-      <button className=" absolute right-12 top-5 text-[#333333] text-md hover:p-2 hover:bg-gray-50 " onClick={fetchData}>random <RefreshIcon className='h-5 inline-flex' /></button>
+      <button className=" absolute right-12 top-5 text-[#333333] text-md p-2 rounded-md hover:bg-gray-50 " onClick={fetchData}>random <RefreshIcon className='h-5 inline-flex' /></button>
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/author' element={<Author />} />
